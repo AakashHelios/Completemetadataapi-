@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Authorized</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Authorizeds</value>
+    </caseValues>
+    <fields>
+        <label><!-- access_token --></label>
+        <name>access_token__c</name>
+    </fields>
+    <fields>
+        <label><!-- id_token --></label>
+        <name>id_token__c</name>
+    </fields>
+    <fields>
+        <label><!-- instance_url --></label>
+        <name>instance_url__c</name>
+    </fields>
+    <fields>
+        <label><!-- refresh_token --></label>
+        <name>refresh_token__c</name>
+    </fields>
+    <layouts>
+        <layout>Authorized Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
